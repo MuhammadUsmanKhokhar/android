@@ -5,12 +5,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Homepage">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Welcome to HomePage"
-        android:textSize="25dp"
-        android:textAlignment="center"
-        />
 
 </LinearLayout>
