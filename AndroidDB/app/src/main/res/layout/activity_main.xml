@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_back"
+    android:padding="16dp"
+
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:textAlignment="center"
+       android:textSize="20dp"
+       android:textColor="#9C27B0"
+       android:text="Welcome to infosys android database"
+       />
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progressBar_cyclic"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minHeight="50dp"-->
+        <!--android:minWidth="50dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <EditText
+        android:id="@+id/UserNameET"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:hint="Enter your name"
+        android:background="@drawable/edt_back"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <EditText
+        android:id="@+id/UserEmailET"
+        android:background="@drawable/edt_back"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:hint="Enter your Email"
+        android:inputType="textEmailAddress"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <EditText
+        android:id="@+id/PasswordET"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="36dp"
+        android:hint="Password "
+        android:background="@drawable/edt_back"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+    <EditText
+        android:id="@+id/ContactET"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:hint="Enter mobile no "
+        android:inputType="number"
+        android:background="@drawable/edt_back"
+
+        />
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="12dp"/>
+
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonshape"
+        />
+</LinearLayout>
