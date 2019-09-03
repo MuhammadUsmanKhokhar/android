@@ -31,13 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="12dp"/>
 
-    <EditText
-        android:id="@+id/UserNameET"
-        android:layout_width="match_parent"
-        android:layout_height="36dp"
-        android:hint="Enter your name"
-        android:background="@drawable/edt_back"
-        />
+    
     <View
         android:layout_width="match_parent"
         android:layout_height="12dp"/>
